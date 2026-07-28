@@ -566,7 +566,7 @@ end
 
 _G.X3 = _G.X3 or {}
 
-_G.X3.BuildStamp = "SRC HUB (2026-07-22)"
+_G.X3.BuildStamp = "SRC HUB (2026-08-28)"
 _G.X3.Trace = function(msg)
     print("[X3v66] " .. tostring(msg))
 end
@@ -3062,7 +3062,7 @@ _G.X3.LexusState = _G.X3.LexusState or {
 }
 
 -- LAYER VALIDASI TANGGAL 3 LAPIS (100% SINKRON)
-local limitTime = os.time({ year = 2026, month = 07, day = 28, hour = 12, min = 00, sec = 0 })
+local limitTime = os.time({ year = 2026, month = 08, day = 28, hour = 12, min = 00, sec = 0 })
 local currentTime = os.time(os.date("!*t"))
 isExpired = false
 
